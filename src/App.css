@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5eee6;
+}
+main {
+  flex: 1;
+  background-color: #f5eee6;
+  color: #4b2e20;
+  text-align: center;
+  padding: 30px 20px;
+  min-height: 300px;
+}
+
+main h2 {
+  font-size: 32px;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.4;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardapio {
+  max-width: 600px;
+  margin: 25px auto;
+}
+
+.cafe {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #5c3825;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.cafe h3 {
+  margin-bottom: 8px;
+}
+
+.cafe p {
+  margin-bottom: 8px;
+}
+
+.cafe strong {
+  color: #5c3825;
+}
